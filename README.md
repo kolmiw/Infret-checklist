@@ -11,8 +11,8 @@ List of un-answered questions:
 2:  
 3:  
 4: a, c, o.  
-5: all  
-6: all  
+5: l 
+6: h  
 7: all  
 8: all  
 9: all  
