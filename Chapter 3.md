@@ -60,3 +60,19 @@ Skip pointers are additional pointers in a (sorted) list. It is used to accelera
 ## l. Can you explain how the standard inverted index can be changed to a bi-word index to handle phrase search?
 
 It should not be possible with a standard inverted index (S) as it uses a set-of-documents and it is not denoting the order of the words (then it wouldn't be standard anymore). If we can access the documents though, then we can just create a new standard inverted index of bi-words.
+
+## m. Can you explain how the standard inverted index can be changed, alternatively, to a positional index (that is, with positional postings) to handle phrase search? Which model (list/set/bag of words) is then supported?
+
+For each term, instead of a simple list of Document IDs, we can store a list tuples of Document ID's and a set of positions. This wording is too tragic, let me write this out with an example:
+
+```
+D1: "ETH Zürich is not a company, but is located in Zürich"
+D2: "My ETH investment is insured by the Zürich Insurance company"
+```
+then
+```
+S["Zürich"] = [(D1, [2, 11]), (D2, [8])
+```
+## n. Can you explain why the first of the above solutions may have false positives, while the second one doesn't?
+
+Oh so you wanted me to just accept a document having a bi-word if both words are in the document didn't you? In that case, the phrase "ETH Zürich" would be a false negative in the first approach, but not the second one.
