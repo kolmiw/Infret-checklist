@@ -7,10 +7,10 @@ List of questions I'm not sure about:
 3: g, h, i, l.  
 4: i, n. 
 
-List of question un-answered questions:  
+List of un-answered questions:  
 2:  
 3:  
-4: a, c, o. 
+4: a, c, o.  
 5: all  
 6: all  
 7: all  
