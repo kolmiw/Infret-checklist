@@ -1,5 +1,7 @@
 # Infret-checklist
 
+I solved attempted 2-4 so far. Feel free to extend
+
 List of questions I'm not sure about:  
 2:   
 3: g, h, i, l.  
