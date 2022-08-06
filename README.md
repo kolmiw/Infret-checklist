@@ -11,10 +11,10 @@ List of un-answered questions:
 2:  
 3:  
 4: a, c, o.  
-5: l 
-6: h  
-7: all  
-8: all  
+5: l   
+6: h    
+7:   
+8:    
 9: all  
 10: all  
 11: all
