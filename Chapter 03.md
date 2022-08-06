@@ -26,7 +26,7 @@ I'm pretty sure we didn't cover Unicode itself, only through UTF-8. UTF-8 can en
 | U+007F           | 0XXXXXXX |          |          |         |
 | U+07FF           | 110XXXXX | 10XXXXXX |          |         |
 | U+FFFF           | 1110XXXX | 10XXXXXX | 10XXXXXX |         |
-| U+10FFFF(?)      | 1110XXXX | 10XXXXXX | 10XXXXXX |10XXXXXX | 
+| U+10FFFF(?)      | 11110XXXX | 10XXXXXX | 10XXXXXX |10XXXXXX | 
 
 
 ## e. Do you know how the ASCII encoding works, and how it relates to Unicode?
