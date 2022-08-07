@@ -11,7 +11,7 @@ they all also preserve inclusion but I omitted it from this table.
 
 ## b. Can you describe the query language of a Boolean retrieval system?
 
-A boolean query can consists of words, and the operators `NOT`, `AND`, `OR` and could use wildcards with `*`
+A boolean query can consists of words, and the operators `NOT`, `AND`, `OR` (and could use wildcards with `*` but it's not true here.)
 
 ## c. Do you know which model (list-of-words, set-of-words or bag-of-words) a Boolean retrieval system uses?
 
